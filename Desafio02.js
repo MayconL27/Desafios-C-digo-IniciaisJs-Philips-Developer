@@ -6,10 +6,10 @@ let final = parseInt(line[1]);
 
 if (inicio >= 0 && final <= 2) {
     print('nova');
-} else if (final > inicio && final <=     ) {
-    print(               );
-} else if (              ) {
-    print(                 );                 //complete o código nos espaços em branco
+} else if (final > inicio && final <= 96) {
+    print('cresente');
+} else if (inicio >= final && final <= 96) {
+    print('minguante');                 //complete o código nos espaços em branco
 } else { 
     print('cheia');
 }
